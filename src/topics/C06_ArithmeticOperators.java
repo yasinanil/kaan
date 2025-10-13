@@ -13,7 +13,15 @@ public class C06_ArithmeticOperators {
         System.out.println(x / y);
         System.out.println(x % y);
         //System.out.println(x / 0);//ArithmeticException: / by zero
-        System.out.println(10.0/3);
+        System.out.println(10.0 / 3);
+
+        // Convert seconds to minutes and seconds
+        int totalSeconds = 368;
+        int minutes = totalSeconds / 60;
+        int seconds = totalSeconds % 60;
+        System.out.println("minutes = " + minutes);
+        System.out.println("seconds = " + seconds);
+
 
 
     }
