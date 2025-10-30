@@ -12,9 +12,9 @@ public class C11_CompoundAssignmentOperators {
         number *= 15;
         number /= 4;
         number %= 8;
-
+        number++;
+        number--;
         System.out.println("number = " + number);
-
 
     }
 }
