@@ -10,8 +10,6 @@ public class C22_Substring {
         System.out.println("ss = " + ss);
         System.out.println(str.substring(13));
         System.out.println(str.substring(13, 16));
-
-
     }
 
 }
