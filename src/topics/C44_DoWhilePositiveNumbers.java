@@ -22,11 +22,12 @@ public class C44_DoWhilePositiveNumbers {
             number = scanner.nextInt();
             if (number > 0) {
                 sum += number;
+            } else {
+                System.out.println("You entered a negative number! Goddbye!!!");
+                System.out.println("sum = " + sum);
             }
 
         } while (number >= 0);
-
-        System.out.println("sum = " + sum);
 
     }
 }
